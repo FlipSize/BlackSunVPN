@@ -1,2 +1,2 @@
-DOMAIN,jut.su
-GEOSITE:google-gemini
+DOMAIN-SUFFIX,jut.su
+GEOSITE,google-gemini
