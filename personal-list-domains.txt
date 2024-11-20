@@ -1,1 +1,2 @@
 DOMAIN,jut.su
+GEOSITE:google-gemini
