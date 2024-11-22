@@ -1,8 +1,0 @@
-GEOSITE,category-ads-all,REJECT
-GEOSITE,win-spy,REJECT
-GEOSITE,ru-blocked,BlackSun VPN
-GEOSITE,GOOGLE
-DOMAIN-SUFFIX,jut.su
-DOMAIN-SUFFIX,yandexwebcache.org
-PROCESS-NAME,Discord.exe,BlackSun VPN
-MATCH,DIRECT,no-resolve
