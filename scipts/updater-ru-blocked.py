@@ -26,7 +26,7 @@ def fetch_latest_release_file():
     release_data = response.json()
     assets = release_data.get("assets", [])
     
-    target_file_name = ".txt"
+    target_file_name = "ru-blocked.txt"
     for asset in assets:
         if asset["name"] == target_file_name:
             return asset["browser_download_url"]
