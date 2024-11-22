@@ -12,7 +12,7 @@ if not GITHUB_TOKEN:
 
 REPO_OWNER = "FlipSize"
 REPO_NAME = "BlackSunVPN"
-FILE_PATH = "rules/" 
+FILE_PATH = "rules/ru-blocked" 
 
 def fetch_latest_release_file():
     releases_url = "https://api.github.com/repos/runetfreedom/russia-blocked-geosite/releases/latest"
@@ -57,7 +57,7 @@ def upload_to_github(content):
     file_exists = response.status_code == 200
     
     payload = {
-        "message": "Update ",
+        "message": "Update ru-blocked",
         "content": base64.b64encode(content.encode("utf-8")).decode("utf-8"),
         "branch": "main"
     }
